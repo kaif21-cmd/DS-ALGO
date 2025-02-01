@@ -25,3 +25,9 @@ console.log(myStack.peek()); // Output: 6
 myStack.remove();
 myStack.display(); // Output: [5]
 ```
+```jsx
+complexity same time & space push() o(1)
+pop() o(1)
+top() o(1)
+empty() o(1)
+```
