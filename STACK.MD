@@ -1,4 +1,8 @@
 ```jsx
+stack is a linear DS that follow LIFO last in first out the element inserted is the first to be pop out 
+```
+
+```jsx
 class Stack {
     constructor() {
         this.array = [];
