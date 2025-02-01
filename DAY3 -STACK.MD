@@ -70,3 +70,32 @@ console.log(myStack.search(6)); // Output: 1 (Index of 6)
 console.log(myStack.search(10)); // Output: -1 (Not found)
 
 ```
+
+```jsx
+Reverse of the stack 
+
+class Stack {
+    constructor() {
+        this.array = [];
+    }
+    append(data) {
+        this.array.push(data);
+    }
+    display() {
+        console.log(this.array);
+    }
+    reverse() {
+        this.array.reverse();
+    }
+}
+
+const myStack = new Stack();
+myStack.append(1);
+myStack.append(2);
+myStack.append(3);
+myStack.display(); // Output: [1, 2, 3]
+
+myStack.reverse();
+myStack.display(); // Output: [3, 2, 1]
+
+```
